@@ -25,5 +25,7 @@ public class Main {
         } else {
             System.out.print("Você não tem direito ao atendimento prioritário");
         }
+
+        scanner.close();
     }
 }
