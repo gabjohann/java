@@ -22,5 +22,7 @@ public class Main {
         } else {
             System.out.print("Você não está apto à comprar seu automóvel, você é menor de idade.");
         }
+
+        scanner.close();
     }
 }
