@@ -18,5 +18,9 @@ public class Main {
         }
 
         System.out.printf("O fatorial de %d é %d.", value, factorial);
+
+        scanner.close();
+
+        // poderia inserir um laço condicional para garantir que o usuário não inseriu um valor negativo
     }
 }
