@@ -17,5 +17,9 @@ public class Main {
         String formattedResult = String.format("%.1f", amount);
 
         System.out.println("Você ganha " + formattedResult + " salários mínimos.");
+        // Outra forma de fazer a exibição com valores formatados
+        // System.out.print("Você ganha %2.f salários mínimos", formattedResult);
+
+        scanner.close();
     }
 }
