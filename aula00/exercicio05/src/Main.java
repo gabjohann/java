@@ -23,5 +23,9 @@ public class Main {
         // 24h = 86400s
         int remainingSeconds = 86400 - totalSeconds;
         System.out.print("Se passaram " + totalSeconds + " segundos desde às 0h00min0s e faltam " + remainingSeconds + " segundos para ser 0h00min0s novamente.");
+
+        scanner.close();
+
+        // poderia ter feito um laço condicional para verificar se os dados enviados (hora, minutos e segundos) são válidos
     }
 }
