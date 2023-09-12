@@ -19,7 +19,10 @@ public class Main {
             System.out.print("Você não possui idadade para votar!");
         } else if (age <= 17 || age > 65) {
             System.out.print("Seu voto é facultativo!");
-        } else
+        } else {
             System.out.print("Você é obrigado a votar!");
+        }
+
+        scanner.close();
     }
 }

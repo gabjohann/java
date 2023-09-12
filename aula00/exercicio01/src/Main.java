@@ -8,5 +8,7 @@ public class Main {
         String name = scanner.next();
 
         System.out.print("Bem vindo(a), " + name +  "!");
+
+        scanner.close();
     }
 }

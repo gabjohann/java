@@ -15,5 +15,7 @@ public class Main {
         double temperatureF = (temperature * 9/5) + 32;
 
         System.out.print("Está " + temperatureF + "ºF");
+
+        scanner.close();
     }
 }

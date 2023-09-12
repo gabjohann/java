@@ -26,5 +26,9 @@ public class Main {
         }
 
         System.out.print("A palavra/frase informada contém: " + counter + " vogais.");
+
+        scanner.close();
+
+        // poderia converter para lower case para garantir que não haverá bugs
     }
 }

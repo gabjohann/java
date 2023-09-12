@@ -33,5 +33,7 @@ public class Main {
         System.out.println("O menor número informado foi: " + smaller);
         System.out.println("O maior número informado foi: " + larger);
         System.out.println("A média entre eles é: " + formattedResult);
+
+        scanner.close();
     }
 }

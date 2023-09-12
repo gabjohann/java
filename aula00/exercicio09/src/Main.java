@@ -15,5 +15,7 @@ public class Main {
 
         int age = year - birthYear;
         System.out.print("Você tem " + age + " anos.");
+
+        scanner.close();
     }
 }

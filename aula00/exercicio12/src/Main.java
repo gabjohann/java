@@ -19,5 +19,7 @@ public class Main {
         double conversion = value * currencyExchange;
 
         System.out.print(String.format("%.2f dólar(es) equivale(em) a %.2f %s", value, conversion, currency));
+
+        scanner.close();
     }
 }
