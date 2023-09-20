@@ -1,18 +1,29 @@
-import java.time.LocalDateTime;
-import java.util.Date;
-
 public class exercicio01 {
     public static void main(String[] args) {
-        ContaBancaria contaLucas = new ContaBancaria();
-        contaLucas.nome = "Lucas Gabriel";
-        contaLucas.cpf = "434.179.230-00";
-        contaLucas.identificadorConta = 1960802 - 6;
-        contaLucas.banco = "Bradesco";
-        contaLucas.endereco = "Avenida Getúlio Vargas";
-        contaLucas.saldo = 300.00;
-        contaLucas.horarioAtual = LocalDateTime.now();
+        ContaBancaria conta0 = new ContaBancaria(
+                "Lucas Johann",
+                "434.179.230-00",
+                "1966413-9",
+                "Bradesco",
+                "Avenida Getúlio Vargas",
+                3300.50
+        );
 
-        contaLucas.verificarSaldo();
-        contaLucas.verificarHorario();
+        ContaBancaria conta1 = new ContaBancaria(
+                "Gabriel Fernandes",
+                "067.383.020-96",
+                "97754-4",
+                "Itaú",
+                "Avenida dos Estados",
+                30.00
+        );
+
+        conta1.saque(10);
+        conta1.deposito(50.55, conta1);
+        conta0.pix(100, conta1);
+        conta1.transferencia(conta0, 20);
+        conta0.verificarSaldo();
+        conta1.verificarHorario();
+        conta0.verificarInformacoes();
     }
 }
