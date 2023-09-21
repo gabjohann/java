@@ -47,8 +47,24 @@ public class Circulo {
         double diameter = 2 * raio;
     }
 
-    public void areaSombreada(double raio1, double raio2) {
-       double area = Math.PI * Math.pow(raio1, 2);
-
+    public static double calcularArea(double raio) {
+        return Math.PI * Math.pow(raio, 2);
     }
+
+    public void calcularAreaSombreada(double raioMenor, double raioMaior) {
+
+        double areaMenor = calcularArea(raioMenor);
+        double areaMaior = calcularArea(raioMaior);
+
+        double areaSomberada = areaMaior - areaMenor;
+
+        System.out.println(areaSomberada);
+    }
+
+    public void criarCirculoPlanoCartesiano(double x, double y, double r) {
+    }
+    // coordenada X
+    // coordenada Y
+    // raio
+
 }

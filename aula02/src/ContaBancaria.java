@@ -109,7 +109,7 @@ public class ContaBancaria {
     public void transferencia(ContaBancaria destino, double valor) {
         String[] splitHour = formatterTimer.format(horarioAtual).split(":");
         int hour = Integer.parseInt(splitHour[0]);
-        if (hour >= 8 || hour <= 19) {
+        if (hour >= 8 && hour <= 19) {
             if (saldo >= valor) {
                 this.saldo = saldo - valor;
                 destino.saldo = saldo + valor;

@@ -17,7 +17,7 @@ public class exercicio01 {
                 "Avenida dos Estados",
                 30.00
         );
-     /*   conta1.saque(10);
+       conta1.saque(10);
         conta1.deposito(50.55, conta1);
         conta0.pix(100, conta1);
         conta1.transferencia(conta0, 20);
@@ -25,7 +25,5 @@ public class exercicio01 {
         conta1.verificarHorario();
         conta0.verificarInformacoes();
         conta0.validarCPF(conta0.getCpf()); // tem como ser conta0.validarCPF() sem  colocar tudo num único arquivo?
-        */
-
     }
 }

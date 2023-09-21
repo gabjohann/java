@@ -4,5 +4,8 @@ public class exercicio02 {
 
         circulo.calcularArea();
         circulo.calcularCircunferencia();
+        circulo.definirRaio(10);
+        circulo.comparacaoCirculos(5, 10);
+        circulo.calcularAreaSombreada(5, 10);
     }
 }
