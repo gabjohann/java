@@ -1,6 +1,8 @@
 import java.text.MessageFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
+import java.util.List;
 
 public class ContaBancaria {
     private String nome;
@@ -135,4 +137,33 @@ public class ContaBancaria {
         System.out.println(formatterTimer.format(getHorarioAtual()));
     }
 
+    // Extras:
+
+    public void validarCPF(String cpf) {
+        ValidarCPF cpfValidator = new ValidarCPF();
+        String[] invalidDocuments = {"00000000000", "11111111111", "22222222222", "33333333333", "44444444444", "55555555555", "66666666666", "77777777777", "88888888888", "99999999999"};
+
+        List<String> invalidDocumentsList = Arrays.asList(invalidDocuments);
+
+        if (invalidDocumentsList.contains(cpf) || cpf.length() < 11 || !cpfValidator.isCPF(cpf)) {
+            System.out.println("O CPF informado é inválido!");
+        } else {
+            System.out.println("O CPF informado é válido.");
+        }
+    }
+
+    // histórico de transações
+
+    public void alterarEndereco(String novoEndereco) {
+        setEndereco(novoEndereco);
+    }
+
+    // taxa manutenção
+
+    // juros conta
+
+    public void fecharConta(ContaBancaria usuario) {
+        usuario.saldo = 0;
+        // tem uma forma mais inteligente do que verificar em cada transação?
+    }
 }
