@@ -127,10 +127,7 @@ public class ContaBancaria {
     }
 
     public void verificarInformacoes() {
-        System.out.println(MessageFormat.format(
-                "Nome: {0}\nCPF: {1}\nConta: {2}\nBanco: {3}\nEndereço: {4}\nSaldo: {5}",
-                getNome(), getCpf(), getIdentificadorConta(), getBanco(), getEndereco(), getSaldo())
-        );
+        System.out.println(MessageFormat.format("Nome: {0}\nCPF: {1}\nConta: {2}\nBanco: {3}\nEndereço: {4}\nSaldo: {5}", getNome(), getCpf(), getIdentificadorConta(), getBanco(), getEndereco(), getSaldo()));
     }
 
     public void verificarHorario() {
