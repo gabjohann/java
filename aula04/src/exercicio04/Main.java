@@ -1,12 +1,13 @@
 package exercicio04;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class exercicio04 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        LinkedList<Compra> shoppingList = new LinkedList<>();
+        List<Compra> shoppingList = new ArrayList<>();
         String productName = "";
         String productExperyDate = "";
         int menuOption;

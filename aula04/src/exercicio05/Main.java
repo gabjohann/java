@@ -28,13 +28,13 @@ public class Main {
                 case 1:
                     System.out.print("Digite seu nome: ");
                     username = scanner.nextLine();
-                   // newPrintList.setUsername(scanner.nextLine());
+                    // newPrintList.setUsername(scanner.nextLine());
                     System.out.print("Digite o número de páginas a serem impressas: ");
                     numPages = scanner.nextInt();
                     // newPrintList.setNumPages(scanner.nextInt());
 
                     Impressao newPrintList = new Impressao(username, numPages);
-                   printList.add(newPrintList);
+                    printList.add(newPrintList);
 
                     System.out.println("Impressão adicionada a lista!\n");
                     break;

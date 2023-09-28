@@ -10,7 +10,7 @@ package exercicio03;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class exercicio03 {
+public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
