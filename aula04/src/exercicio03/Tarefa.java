@@ -1,7 +1,5 @@
 package exercicio03;
 
-import java.time.LocalDateTime;
-
 public class Tarefa {
     private String title;
     private String date;
