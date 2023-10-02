@@ -1,3 +1,5 @@
+package exercicio02;
+
 public class Circulo {
     private double raio;
 
@@ -58,10 +60,12 @@ public class Circulo {
 
         double areaSomberada = areaMaior - areaMenor;
 
-        System.out.println(areaSomberada);
+        System.out.println("O valor da área sombreada é igual a: " + areaSomberada);
     }
 
     public void criarCirculoPlanoCartesiano(double x, double y, double r) {
+        double distancia = Math.sqrt(x * x + y * y);
+        System.out.println(distancia + raio);
     }
     // coordenada X
     // coordenada Y
