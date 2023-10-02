@@ -1,4 +1,4 @@
-// Fonte: https://receitasdecodigo.com.br/java/classe-java-completa-para-gerar-e-validar-cpf-e-cnpj
+package exercicio01;// Fonte: https://receitasdecodigo.com.br/java/classe-java-completa-para-gerar-e-validar-cpf-e-cnpj
 import java.util.InputMismatchException;
 
 public class ValidarCPF {
