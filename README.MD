@@ -15,9 +15,9 @@ Este é o cronograma inicial que planejamos:
 | :white_check_mark: | Orientação a Objetos (método, classe, objeto)                         |
 | :white_check_mark: | Modificadores de acesso e estrutura de dados                          |
 | :white_check_mark: | Herança e Polimorfismo / Interface e Enum                             |
-|                    | Exceções e tratamento de erro                                         |
-|                    | Maven / Gradle + testes unitários                                     |
-|                    | Estilos de arquitetura de APIs + inicio Spring                        |
+| :white_check_mark: | Exceções e tratamento de erro                                         |
+| :white_check_mark: | Maven / Gradle + testes unitários                                     |
+| :white_check_mark: | Estilos de arquitetura de APIs + inicio Spring                        |
 |                    | Spring initilazer + Spring boot                                       |
 |                    | Construir um CRUD REST                                                |
 |                    | Scrum + Trello                                                        |
